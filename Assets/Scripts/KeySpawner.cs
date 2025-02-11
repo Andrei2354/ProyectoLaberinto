@@ -16,13 +16,12 @@ public class KeySpawner : MonoBehaviour
 
     void InitializeSpawnPoints()
     {
-        spawnPositions.Add(new Vector3(0f, 1f, 0f));   
-        spawnPositions.Add(new Vector3(3f, 1f, 5f));  
-        spawnPositions.Add(new Vector3(-4f, 1f, 2f)); 
-        spawnPositions.Add(new Vector3(5f, 1f, -3f));  
-        spawnPositions.Add(new Vector3(-2f, 1f, -5f)); 
-        spawnPositions.Add(new Vector3(7f, 1f, 4f));   
-        spawnPositions.Add(new Vector3(-6f, 1f, -2f)); 
+        spawnPositions.Add(new Vector3(-27, -4, 5));   
+        spawnPositions.Add(new Vector3(-16, 1, -20));  
+        spawnPositions.Add(new Vector3(-29, 1, -28)); 
+        spawnPositions.Add(new Vector3(-20, 6, -24));  
+        spawnPositions.Add(new Vector3(0, 11, -6)); 
+        spawnPositions.Add(new Vector3(8, 6, 4));   
 
         Debug.Log("Puntos de spawn inicializados: " + spawnPositions.Count);
     }
