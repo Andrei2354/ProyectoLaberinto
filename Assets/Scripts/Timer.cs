@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using TMPro;
 
 public class Timer : MonoBehaviour{
-    private float timer = 10f;
+    private float timer = 160f;
     public TMP_Text timerText;
     public GameObject gameOverUI;
     public GameObject panelUI; 
