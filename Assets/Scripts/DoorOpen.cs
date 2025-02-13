@@ -4,9 +4,9 @@ public class Door : MonoBehaviour
 {
     public KeyManager keyManager;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Player") && keyManager != null)
+        if (other.CompareTag("Player") && keyManager != null)
         {
             if (keyManager.HasAllKeys())
             {
@@ -16,5 +16,4 @@ public class Door : MonoBehaviour
         }
     }
 }
-
 
